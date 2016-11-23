@@ -1,0 +1,149 @@
+@media screen and (min-width: 1200px){
+    .wrap {
+        width: 1200px;
+        margin: 0 auto;
+        position: relative;
+    }
+}
+
+.page {
+	display: table;
+	height: calc(100vh - 150px);
+}
+
+.header img {
+	float: left;
+	margin: 0px;
+}
+
+.header a {
+    text-decoration: none;
+}
+
+.header h1 {
+	font-family: Century Gothic;
+	font-size: 26px;
+	background: linear-gradient(to bottom, #69DECE, white);
+	margin: 0px 0px 0px 478px;
+	min-width: 440px;
+	padding: 15px 50px 20px 0;
+	text-align: center;
+	color: #073574;
+	border-bottom-right-radius: 90px;
+}
+
+.header-right-part{
+	background: linear-gradient(to bottom, #5ea42e, #69DECE);
+	margin: -35px 0 0 0;
+	padding: 0;
+}
+.language{
+	float: left;
+}
+
+.language a{
+	float: left;
+	padding: 10px 5px;
+	transition: all 0.3s ease;
+}
+
+.language a:hover{
+	padding: 15px 0 0 0;
+}
+
+.header p {
+	font-family: Century Gothic;
+	font-size: 20px;
+	text-align: center;
+	color: #272727;
+	min-width: 460px;
+	padding: 0 20px;
+	margin: 10px 10px 0px 482px;
+} 
+
+.footer {
+	min-width: 990px;
+}
+.footer img{
+	float: right;
+	margin: 0;
+}
+
+.footer p{
+	font-family: Century Gothic;
+	float: left;
+	width: 150px;
+	margin: 105px 0 0 0;
+	padding: 0 10px 0 10px;
+}
+
+.left-side {
+	font-family: Century Gothic;
+	width: 235px;
+	margin: 50px 0 0 0;
+	padding: 0;
+	position: absolute;
+	height: calc(100vh - 350px);
+}
+
+.left-side ul {
+	margin: 10px 0;
+}
+.left-side li{
+	list-style: none;
+	color: white;
+	font-size: 18px;
+	padding: 0px 70px 0 5px;
+	height: 80px;
+	margin:  5px 30px 0 -40px;
+	border-top-right-radius: 40px; 
+	border-bottom-right-radius: 40px; 
+	transition: all 0.3s ease;
+}
+
+.left-side a{
+	color: white; 
+	text-decoration: none;
+	padding: 0px 35px 15px 0;
+}
+
+.left-side li:hover{
+	margin:  5px 10px 0 -10px;
+}
+
+.search{
+	padding: 20px 0;
+	margin: 35px 0 0 0;
+}
+
+.search input {
+	margin: -15px 35px 0 0;
+	float: right;
+    width: 200px;
+    height: 25px;
+    display: inline-block;
+    vertical-align: middle;
+    border-color: #5062c4;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.search-button input{
+	margin: -15px -235px 0 0;
+    float: right;
+    width: 31px;
+    height: 31px;
+    display: inline-block;
+    vertical-align: middle;
+    background: url("../../Content/image/search.png") center no-repeat;
+    border: 0;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.right-side {
+	margin: 20px 50px 0 235px;
+} 
+

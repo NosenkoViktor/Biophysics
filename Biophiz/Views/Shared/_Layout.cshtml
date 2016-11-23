@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>@ViewBag.Title</title>
+        <meta name="description" content="blog">
+        <link rel="stylesheet" href="../../Content/normalize.css">
+        <link rel="stylesheet" href="../../Content/main.css">
+</head>
+
+<body>
+    <div class="wrap">
+        <div class="page">
+            <header class="header">
+                <img src="../../Content/image/header.png"/>
+                <div class="header-right-part">
+                    @Html.Partial("_LanguagePartial")
+                    @Html.Partial("_SearchPartial")
+                </div>
+                <a href="http://www.umsa.edu.ua"><h1>Українська Медична Стоматологiчна Академiя</h1></a>
+                <p>КАФЕДРА МЕДИЧНОІ ІНФОРМАТИКИ, МЕДИЧНОЇ І БІОЛОГІЧНОЇ ФІЗИКИ</p>
+            </header>
+            <div class="left-side">
+                @Html.Partial("_MenuPartial")
+            </div>           
+            <div class="right-side">
+                @RenderBody()
+            </div>
+        </div>
+        <div class="footer">
+            <p>Nosenko Viktor, Poltava 2016 ©</p>
+            <img src="../../Content/image/footer.png"/>
+        </div>
+    </div>
+</body>
+</html>
+</html>
